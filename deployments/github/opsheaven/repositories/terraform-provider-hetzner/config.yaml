@@ -1,7 +1,7 @@
 ---
 
-name: 'hetzner-terraform-provider'
-description: 'OpsHeaven Hetzner Terraform Provider Implementation'
+name: 'terraform-provider-hetzner'
+description: 'OpsHeaven Hetzner Terraform Provider'
 homepage_url: 'https://github.com/opsheaven'
 visibility: 'public'
 has_issues: true
