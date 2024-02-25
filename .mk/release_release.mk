@@ -19,6 +19,7 @@ release/release:
 ifneq ($(NEXT_VERSION),)
 	@echo "Creating tag $(NEXT_VERSION)"
 	@git tag $(NEXT_VERSION)
+	@git push origin $(NEXT_VERSION)
 	@gh release create $(NEXT_VERSION) --generate-notes
 else
 	@echo "Last commit does not contain #major,#minor or #patch"
