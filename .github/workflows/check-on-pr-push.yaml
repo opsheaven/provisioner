@@ -6,8 +6,6 @@ name: 'Verify Pull Request'
     branches:
       - 'main'
 
-permissions:
-
 jobs:
   pre-commit:
     runs-on: 'ubuntu-latest'
