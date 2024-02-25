@@ -1,0 +1,25 @@
+---
+
+teams:
+  administrators:
+    description: 'OpsHeaven Adminstrators'
+    privacy: 'closed'
+    pr_member_count: 1
+    pr_notification: true
+    repo_permission: 'admin'
+  security:
+    description: 'OpsHeaven Security Team'
+    privacy: 'closed'
+    pr_member_count: 1
+    pr_notification: true
+    repo_permission: 'push'
+  opsheaven:
+    description: 'OpsHeaven Members'
+    privacy: 'closed'
+    security: true
+    pr_member_count: 1
+    pr_notification: true
+    repo_permission: 'triage'
+    repo_permission_override:
+      ".github": 'pull'
+      ".github-private": 'pull'

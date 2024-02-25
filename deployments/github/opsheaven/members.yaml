@@ -1,0 +1,9 @@
+---
+
+blocked_users: []
+
+members:
+  mustafaahmetkara:
+    role: 'admin'
+    teams:
+      - '*'
