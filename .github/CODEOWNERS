@@ -1,7 +1,7 @@
 #################################################
 # Managed By Terraform. Do not modify directly.
 #################################################
-# By default administrators owns everything. 
+# By default administrators owns everything.
 # Overritten by the repository codeowner definitions
 
 * @opsheaven/security @opsheaven/administrators
@@ -11,6 +11,7 @@
 #################################################
 * @opsheaven/administrators
 
+
 #################################################
 # Critical files !
 #################################################
@@ -19,5 +20,3 @@
 .gitignore @opsheaven/security @opsheaven/administrators
 Makefile @opsheaven/security @opsheaven/administrators
 .pre-commit-config.yaml @opsheaven/security @opsheaven/administrators
-
-
