@@ -1,0 +1,30 @@
+---
+
+name: 'hetzner-terraform-provider'
+description: 'OpsHeaven Hetzner Terraform Provider Implementation'
+homepage_url: 'https://github.com/opsheaven'
+visibility: 'public'
+has_issues: true
+has_downloads: false
+has_discussions: false
+has_projects: false
+has_wiki: false
+is_template: false
+allow_update_branch: true
+allow_merge_commit: false
+allow_squash_merge: true
+allow_rebase_merge: true
+allow_auto_merge: false
+archived: false
+delete_branch_on_merge: true
+vulnerability_alerts: true
+default_branch: 'main'
+web_commit_signoff_required: true
+topics:
+  - 'terraform'
+  - 'terraform-provider'
+  - 'hetzner'
+  - 'hetzner-robot'
+  - 'hetzner-hcloud'
+issue_labels: {}
+status_checks: []
