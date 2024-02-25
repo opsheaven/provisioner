@@ -19,7 +19,6 @@ jobs:
         with:
           fetch-tags: true
 
-
       - name: 'Generate Release'
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
