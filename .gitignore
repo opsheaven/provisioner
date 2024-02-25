@@ -1,0 +1,6 @@
+.terraform
+.terraform.lock.hcl
+.terragrunt-cache
+state/
+terragrunt-debug.tfvars.json
+backend.tf

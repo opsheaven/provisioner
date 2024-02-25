@@ -1,0 +1,46 @@
+---
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-case-conflict
+      - id: check-json
+        files: \.json$
+      - id: check-merge-conflict
+      - id: check-shebang-scripts-are-executable
+        files: \.sh$
+      - id: check-executables-have-shebangs
+        files: \.sh$
+      - id: check-yaml
+        files: \.(yaml|yml)sh$
+      - id: detect-aws-credentials
+        args:
+          - --allow-missing-credentials
+      - id: detect-private-key
+      - id: double-quote-string-fixer
+        files: \.(yaml|yml|json)sh$
+      - id: end-of-file-fixer
+        exclude: \.(state|state.backup)$
+      - id: no-commit-to-branch
+      - id: trailing-whitespace
+        exclude: \.(state|state.backup)$
+  - repo: https://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.87.1
+    hooks:
+      - id: terraform_fmt
+        files: ^modules
+      - id: terraform_tflint
+        files: ^modules
+      - id: terraform_validate
+        files: ^modules
+      - id: terraform_docs
+        files: ^modules
+      - id: terragrunt_fmt
+        files: ^deployments/.*\.hcl
+      - id: terragrunt_validate
+        files: ^deployments/.*\.hcl
+  - repo: https://github.com/gruntwork-io/pre-commit
+    rev: v0.1.23
+    hooks:
+      - id: terragrunt-hclfmt

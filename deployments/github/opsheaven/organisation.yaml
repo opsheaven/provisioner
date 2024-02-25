@@ -1,0 +1,38 @@
+---
+
+organisation:
+  name: 'OpsHeaven'
+  company: 'opsheaven'
+  description: 'OpsHeaven provides an open source PAAS systems for the enterprises'
+  email: 'info@opsheaven.space'
+  billing_email: 'info@opsheaven.space'
+  location: 'Türkiye'
+  has_organization_projects: false
+  has_repository_projects: false
+  default_repository_permission: 'none'
+  members_can_create_repositories: false
+  members_can_create_public_repositories: false
+  members_can_create_private_repositories: false
+  members_can_create_internal_repositories: false
+  members_can_create_pages: false
+  members_can_create_public_pages: false
+  members_can_create_private_pages: false
+  members_can_fork_private_repositories: false
+  web_commit_signoff_required: false
+  advanced_security_enabled_for_new_repositories: false
+  dependabot_alerts_enabled_for_new_repositories: true
+  dependabot_security_updates_enabled_for_new_repositories: true
+  dependency_graph_enabled_for_new_repositories: true
+  secret_scanning_enabled_for_new_repositories: true
+  secret_scanning_push_protection_enabled_for_new_repositories: true
+
+action_permissions:
+  allowed_actions: 'selected'
+  enabled_repositories: 'all'
+  github_owned_allowed: true
+  verified_allowed: false
+  patterns_allowed:
+    - 'actions/checkout@*'
+    - 'actions/setup-python@'
+    - 'actions-ecosystem/*'
+    - 'pre-commit/action@*'
