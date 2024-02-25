@@ -8,3 +8,6 @@ help: ## Provides help menu
 
 .PHONY: tools
 tools: tools/terraform tools/terragrunt tools/tflint tools/terraform_docs ## Install Required Tools
+
+.PHONY: release
+release: release/release ## Generate release
