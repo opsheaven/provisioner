@@ -1,0 +1,111 @@
+---
+
+".github":
+  description: 'OpsHeaven Github Profile Repository'
+  homepage_url: 'https://github.com/opsheaven'
+  visibility: 'public'
+  has_issues: false
+  has_downloads: false
+  has_discussions: false
+  has_projects: false
+  has_wiki: false
+  is_template: false
+  allow_update_branch: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  allow_auto_merge: false
+  archived: false
+  delete_branch_on_merge: true
+  vulnerability_alerts: true
+  default_branch: 'main'
+  web_commit_signoff_required: true
+  topics:
+    - 'config'
+    - 'github-config'
+    - 'opsheaven'
+
+".github-private":
+  description: 'OpsHeaven Private Github Profile Repository'
+  homepage_url: 'https://github.com/opsheaven'
+  visibility: 'private'
+  has_issues: false
+  has_downloads: false
+  has_discussions: false
+  has_projects: false
+  has_wiki: false
+  is_template: false
+  allow_update_branch: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  allow_auto_merge: false
+  archived: false
+  delete_branch_on_merge: true
+  vulnerability_alerts: true
+  default_branch: 'main'
+  web_commit_signoff_required: true
+  topics:
+    - 'config'
+    - 'github-config'
+    - 'opsheaven'
+
+"provisioner":
+  description: 'OpsHeaven IaC repository to configure OpsHeaven systems'
+  homepage_url: 'https://github.com/opsheaven'
+  visibility: 'public'
+  has_issues: true
+  has_downloads: false
+  has_discussions: false
+  has_projects: false
+  has_wiki: true
+  is_template: false
+  allow_update_branch: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  allow_auto_merge: false
+  archived: false
+  delete_branch_on_merge: true
+  vulnerability_alerts: true
+  default_branch: 'main'
+  web_commit_signoff_required: true
+  topics:
+    - 'opsheaven'
+    - 'terraform'
+    - 'terragrunt'
+  status_checks:
+    - 'pre-commit'
+
+
+
+# "hetzner-dns":
+#   description: 'OpsHeaven Hetzner DNS Go CLI Application & Embedable Library'
+#   homepage_url: 'https://github.com/opsheaven/hetzner-dns/wiki'
+#   visibility: 'public'
+#   has_issues: true
+#   has_downloads: true
+#   has_discussions: false
+#   has_projects: false
+#   has_wiki: true
+#   is_template: false
+#   allow_update_branch: true
+#   allow_merge_commit: false
+#   allow_squash_merge: true
+#   allow_rebase_merge: true
+#   allow_auto_merge: false
+#   archived: false
+#   delete_branch_on_merge: true
+#   vulnerability_alerts: true
+#   default_branch: 'main'
+#   web_commit_signoff_required: true
+#   topics:
+#     - 'hetzner'
+#     - 'hetzner-dns'
+#     - 'hetzner-dns-cli'
+#     - 'go'
+#     - 'golang'
+#   status_checks:
+#     - 'pre-commit'
+#     - 'build'
+#     - 'test'

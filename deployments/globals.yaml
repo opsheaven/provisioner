@@ -1,6 +1,0 @@
----
-
-provisioner:
-  managed_by_text: 'Managed by Terraform (https://github.com/opsheaven/provisioner)'
-  user: 'Provisioner User'
-  email: 'info@opsheaven.space'

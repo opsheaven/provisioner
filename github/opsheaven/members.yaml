@@ -1,0 +1,7 @@
+---
+
+mustafaahmetkara:
+  role: 'admin'
+  blocked: false
+  teams:
+    - '*'
