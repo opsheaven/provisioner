@@ -1,5 +1,5 @@
 terraform {
-  source = "tfr:///opsheaven/organisation/github?version=0.1.0"
+  source = "tfr:///opsheaven/organisation/github?version=0.1.1"
 }
 
 include {
