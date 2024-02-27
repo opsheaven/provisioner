@@ -9,5 +9,8 @@ help: ## Provides help menu
 .PHONY: tools
 tools: tools/terraform tools/terragrunt tools/tflint tools/terraform_docs ## Install Required Tools
 
+.PHONY: tag
+tag: release/tag ## Generate tag from the last commit
+
 .PHONY: release
-release: release/release ## Generate release
+release: release/release ## Generate release from tag
