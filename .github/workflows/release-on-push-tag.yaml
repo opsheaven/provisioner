@@ -5,7 +5,7 @@ name: 'Release'
 "on":
   push:
     tags:
-    - 'v*'
+      - 'v*'
 
 permissions:
   contents: 'write'
@@ -20,7 +20,7 @@ jobs:
           fetch-tags: true
           fetch-depth: 0
 
-      - name: 'Generate Tag'
+      - name: 'Generate Release'
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
           TAG: '${{ github.ref }}'
