@@ -1,6 +1,6 @@
 ---
 
-name: 'Create Release'
+name: 'Tag'
 
 "on":
   push:
@@ -20,8 +20,8 @@ jobs:
           fetch-tags: true
           fetch-depth: 0
 
-      - name: 'Generate Release'
+      - name: 'Generate Tag'
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
         run: |
-            make release
+          make tag

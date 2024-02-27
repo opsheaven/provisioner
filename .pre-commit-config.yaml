@@ -28,19 +28,5 @@ repos:
   - repo: https://github.com/antonbabenko/pre-commit-terraform
     rev: v1.87.1
     hooks:
-      - id: terraform_fmt
-        files: ^modules
-      - id: terraform_tflint
-        files: ^modules
-      - id: terraform_validate
-        files: ^modules
-      - id: terraform_docs
-        files: ^modules
       - id: terragrunt_fmt
-        files: ^deployments/.*\.hcl
       - id: terragrunt_validate
-        files: ^deployments/.*\.hcl
-  - repo: https://github.com/gruntwork-io/pre-commit
-    rev: v0.1.23
-    hooks:
-      - id: terragrunt-hclfmt
