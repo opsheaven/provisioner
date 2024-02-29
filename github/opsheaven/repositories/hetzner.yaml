@@ -1,6 +1,6 @@
 ---
 
-go-hetzner-dns:
+gohetznerdns:
   description: 'OpsHeaven Hetzner DNS Service Go Client Library'
   homepage_url: '' #TODO Github pages
   visibility: 'public'

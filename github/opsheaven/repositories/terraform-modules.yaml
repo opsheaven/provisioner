@@ -2,7 +2,7 @@
 
 terraform-github-organisation:
   description: 'OpsHeaven''s Terraform module to manage GitHub Organizations.'
-  homepage_url: 'https://github.com/opsheaven/terraform-github-organisations'
+  homepage_url: 'https://registry.terraform.io/modules/opsheaven/organisation/github'
   visibility: 'public'
   has_issues: true
   has_downloads: false
