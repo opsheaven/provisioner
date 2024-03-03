@@ -28,3 +28,33 @@ terraform-github-organisation:
     - 'opsheaven'
   status_checks:
     - 'pre-commit'
+
+terraform-hetzner-zone:
+  description: 'OpsHeaven''s Terraform module to manage Hetzner DNS Zones.'
+  homepage_url: 'https://registry.terraform.io/modules/opsheaven/zone/hetzner'
+  visibility: 'public'
+  has_issues: true
+  has_downloads: false
+  has_discussions: false
+  has_projects: false
+  has_wiki: true
+  is_template: false
+  allow_update_branch: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  allow_auto_merge: false
+  archived: false
+  delete_branch_on_merge: true
+  vulnerability_alerts: true
+  default_branch: 'main'
+  web_commit_signoff_required: true
+  topics:
+    - 'hetzner'
+    - 'hetzner-dns'
+    - 'terraform'
+    - 'iac'
+    - 'terraform-module'
+    - 'opsheaven'
+  status_checks:
+    - 'pre-commit'
