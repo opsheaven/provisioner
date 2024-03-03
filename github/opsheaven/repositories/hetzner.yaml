@@ -2,7 +2,7 @@
 
 gohetznerdns:
   description: 'OpsHeaven Hetzner DNS Service Go Client Library'
-  homepage_url: ''
+  homepage_url: 'https://pkg.go.dev/github.com/opsheaven/gohetznerdns'
   visibility: 'public'
   has_issues: true
   has_downloads: true
