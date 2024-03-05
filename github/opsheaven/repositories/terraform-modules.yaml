@@ -29,9 +29,9 @@ terraform-github-organisation:
   status_checks:
     - 'pre-commit'
 
-terraform-hetzner-zone:
+terraform-hetzner-hetzner-zone:
   description: 'OpsHeaven''s Terraform module to manage Hetzner DNS Zones.'
-  homepage_url: 'https://registry.terraform.io/modules/opsheaven/zone/hetzner'
+  homepage_url: 'https://registry.terraform.io/modules/opsheaven/zone/hetzner-zone'
   visibility: 'public'
   has_issues: true
   has_downloads: false
