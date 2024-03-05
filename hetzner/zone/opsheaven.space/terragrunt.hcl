@@ -1,5 +1,5 @@
 terraform {
-  source = "tfr:///opsheaven/zone/hetzner?version=0.0.1"
+  source = "tfr:///opsheaven/hetzner-zone/hetzner?version=0.1.0"
 }
 
 include {
@@ -41,11 +41,6 @@ inputs = {
         type  = "A"
         value = "66.96.162.144"
       }
-      catch_all_record = {
-        name  = "*"
-        type  = "A"
-        value = "66.96.162.144"
-      }
       storage = {
         name  = "storage"
         type  = "CNAME"
@@ -64,7 +59,7 @@ inputs = {
       github_challenge = {
         name  = "_github-challenge-opsheaven-org"
         type  = "TXT"
-        value = "_github-challenge-opsheaven-org		IN	TXT	5d93525144"
+        value = "5d93525144"
       }
     }
   }
