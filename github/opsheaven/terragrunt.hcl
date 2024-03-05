@@ -17,3 +17,26 @@ inputs = merge(
     )
   }
 )
+
+generate "moved" {
+  path      = "moved.tf"
+  if_exists = "overwrite"
+  contents  = <<EOT
+  moved {
+    from = github_branch_default.main["terraform-hetzner-zone"]
+    to = github_branch_default.main["terraform-hetzner-hetzner-zone"]
+  }
+  moved {
+    from =  github_repository.this["terraform-hetzner-zone"]
+    to =  github_repository.this["terraform-hetzner-hetzner-zone"]
+  }
+  moved {
+    from = github_repository_collaborators.this["terraform-hetzner-zone"]
+    to =github_repository_collaborators.this["terraform-hetzner-hetzner-zone"]
+  }
+  moved {
+    from = github_branch_protection.this["terraform-hetzner-zone"]
+    to =github_branch_protection.this["terraform-hetzner-hetzner-zone"]
+  }
+EOT
+}
